@@ -1,0 +1,120 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 30px;
+    background-color:  #FFD8A9;
+    padding: 20px;
+    border: 3px solid black;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body{
+    background-image: url("hw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #86340A;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.halloween{
+    background-color: #FFD8A9;
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.days,.hours,.min,.sec{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    font-weight:900;
+}
+
+.event{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    font-size: 60px;
+    border: none;
+    color: #E38B29;
+}
+
+button{
+    background-color: #E38B29;
+    border-radius: 30px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+button:hover{
+    
+    padding: 30px ;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 30px;
+
+    }
+    button{
+        font-size: 30px;
+    }
+    .heading{
+        margin-top: 60px;
+    }
+    .container{
+        margin-bottom: 60px;
+    }
+}
+
+@media all and (max-width: 500px){
+    body{
+        background-image: url("pumpkin.jpeg");
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #86340A;
+    }
+    h1{
+        font-size: 20px;
+        
+    }
+    .heading{
+        padding: 20px;
+        margin-top: 50px;
+    }
+    button{
+        font-size: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+
+    }
+    .container{
+        margin-bottom: 50px;
+    }
+}
